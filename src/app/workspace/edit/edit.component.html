@@ -1,0 +1,8 @@
+<div>
+    <textarea id="myTextarea"  name="content" [(ngModel)]="doc" class="form-control" rows="30"     >
+        </textarea>
+</div>
+<button style="Width:50px;height:50px" (click)="commit()"></button>
+<div *ngFor="let data of content1">
+    <div [innerHTML]="data"></div>
+</div>
